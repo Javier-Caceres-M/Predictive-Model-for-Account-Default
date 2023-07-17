@@ -25,28 +25,26 @@ En este proyecto, emplearemos las siguientes técnicas y modelos:
 El proyecto se organiza de la siguiente manera:
 
 ├── data
+│   ├── raw_data
+│   └── processed_data
+├── notebooks
+│   ├── src
+│   │   ├── data_preprocessing.py
+│   │   └── report2.py
+│   ├── preprossesing_data.ipynb
+│   ├── exploratory_analysis.ipynb
+│   └── modeling.ipynb
+├── models
+│   ├── trained_model_logistic_regresion.pkl
+│   ├── trained_model_random_forest.pkl
+│   └── trained_model_XGB.pkl
+├── reports
+│   ├── Logistic Regrssion.ipynb
+│   ├── Random_Forest_Classifier.ipynb
+│   └── XGB_Classifier.ipynb
+├── README.md
+└── requirements.txt
 
-│ └── raw_data
-
-│ └── processed_data\n
-
-├── notebooks\n
-│ ├── src\n
-│ │ ├── data_preprocessing.py\n
-│ │ └── report2.py\n
-│ ├── preprossesing_data.ipynb\n
-│ ├── exploratory_analysis.ipynb\n
-│ └── modeling.ipynb\n
-├── models\n
-│ └── trained_model_logistic_regresion.pkl\n
-│ └── trained_model_random_forest.pkl\n
-│ └── trained_model_XGB.pkl\n
-├── reports\n
-│ └── Logistic Regrssion.ipynb\n
-│ └── Random_Forest_Classifier.ipynb\n
-│ └── XGB_Classifier.ipynb\n
-├── README.md\n
-└── requirements.txt\n
 
 
 
