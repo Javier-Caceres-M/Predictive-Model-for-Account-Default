@@ -24,9 +24,12 @@ En este proyecto, emplearemos las siguientes técnicas y modelos:
 
 El proyecto se organiza de la siguiente manera:
 
-├── data\n
-│ └── raw_data\n
+├── data
+
+│ └── raw_data
+
 │ └── processed_data\n
+
 ├── notebooks\n
 │ ├── src\n
 │ │ ├── data_preprocessing.py\n
