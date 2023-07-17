@@ -45,6 +45,7 @@ El proyecto se organiza de la siguiente manera:
 - **Accuracy**: 0.8079946103750281
 - **Confusion Matrix**:
 [[6758 177]
+
 [1533 438]]
 - **Classification Report**:
           precision    recall  f1-score   support
