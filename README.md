@@ -89,18 +89,6 @@ La siguiente matriz de correlación muestra la relación entre las variables num
 
 Podemos observar que algunas variables, como `PAY_1`, `PAY_2`, `PAY_3`, están altamente correlacionadas entre sí, lo que indica una fuerte relación en el historial de pagos.
 
-## Conclusiones adicionales
-
-- La distribución del incumplimiento de pago próximo mes muestra que existe un desbalance de clases, con una proporción mayor de cuentas que no entran en incumplimiento.
-- El género no parece ser un factor determinante para predecir el incumplimiento de pago.
-- El límite de crédito parece tener cierta influencia en el riesgo de incumplimiento, donde cuentas con límites más altos tienden a tener un menor riesgo.
-- No se observa una relación clara entre la edad y el incumplimiento de pago.
-- El nivel educativo muestra diferencias en el incumplimiento de pago, donde las cuentas con educación universitaria tienen una proporción menor de incumplimiento.
-- Existe una correlación significativa entre las variables de historial de pagos, lo que indica que el comportamiento de pago anterior puede ser un indicador importante para predecir el incumplimiento futuro.
-
-Estos análisis complementan los resultados de los modelos predictivos y proporcionan una visión más completa de los factores relacionados con el incumplimiento de pago en las cuentas.
-
-
 ## Análisis de los Modelos Predictivos
 
 En este proyecto, se desarrollaron tres modelos predictivos para determinar la probabilidad de que una cuenta entre en incumplimiento el próximo mes utilizando datos financieros históricos y la información del cliente. A continuación, se presenta un análisis de los resultados obtenidos para cada modelo:
@@ -191,7 +179,7 @@ En términos de precisión y capacidad de predicción de las cuentas en incumpli
 
 Para obtener más detalles sobre la implementación y el análisis de los modelos, consulte los respectivos notebooks y el código fuente en la carpeta `notebooks` y `src` del repositorio.
 
-## Conclusiones y analisis
+## Conclusiones y análisis
 
 Se presentan las principales conclusiones del análisis de este proyecto:
 
@@ -203,3 +191,13 @@ Se presentan las principales conclusiones del análisis de este proyecto:
 
 En general, los modelos desarrollados pueden ser una herramienta útil para predecir la probabilidad de incumplimiento de una cuenta en el próximo mes.
 
+## Conclusiones adicionales respecto al análisis exploratorio
+
+- La distribución del incumplimiento de pago próximo mes muestra que existe un desbalance de clases, con una proporción mayor de cuentas que no entran en incumplimiento.
+- El género no parece ser un factor determinante para predecir el incumplimiento de pago.
+- El límite de crédito parece tener cierta influencia en el riesgo de incumplimiento, donde cuentas con límites más altos tienden a tener un menor riesgo.
+- No se observa una relación clara entre la edad y el incumplimiento de pago.
+- El nivel educativo muestra diferencias en el incumplimiento de pago, donde las cuentas con educación universitaria tienen una proporción menor de incumplimiento.
+- Existe una correlación significativa entre las variables de historial de pagos, lo que indica que el comportamiento de pago anterior puede ser un indicador importante para predecir el incumplimiento futuro.
+
+Estos análisis complementan los resultados de los modelos predictivos y proporcionan una visión más completa de los factores relacionados con el incumplimiento de pago en las cuentas.
