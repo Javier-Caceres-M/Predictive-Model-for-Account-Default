@@ -24,26 +24,26 @@ En este proyecto, emplearemos las siguientes técnicas y modelos:
 
 El proyecto se organiza de la siguiente manera:
 
-├── data
-│ └── raw_data
-│ └── processed_data
-├── notebooks
-│ ├── src
-│ │ ├── data_preprocessing.py
-│ │ └── report2.py
-│ ├── preprossesing_data.ipynb
-│ ├── exploratory_analysis.ipynb
-│ └── modeling.ipynb
-├── models
-│ └── trained_model_logistic_regresion.pkl
-│ └── trained_model_random_forest.pkl
-│ └── trained_model_XGB.pkl
-├── reports
-│ └── Logistic Regrssion.ipynb
-│ └── Random_Forest_Classifier.ipynb
-│ └── XGB_Classifier.ipynb
-├── README.md
-└── requirements.txt
+├── data\n
+│ └── raw_data\n
+│ └── processed_data\n
+├── notebooks\n
+│ ├── src\n
+│ │ ├── data_preprocessing.py\n
+│ │ └── report2.py\n
+│ ├── preprossesing_data.ipynb\n
+│ ├── exploratory_analysis.ipynb\n
+│ └── modeling.ipynb\n
+├── models\n
+│ └── trained_model_logistic_regresion.pkl\n
+│ └── trained_model_random_forest.pkl\n
+│ └── trained_model_XGB.pkl\n
+├── reports\n
+│ └── Logistic Regrssion.ipynb\n
+│ └── Random_Forest_Classifier.ipynb\n
+│ └── XGB_Classifier.ipynb\n
+├── README.md\n
+└── requirements.txt\n
 
 
 
@@ -60,5 +60,25 @@ El proyecto se organiza de la siguiente manera:
 - **requirements.txt**: Archivo que lista las dependencias del proyecto, que se pueden instalar utilizando el comando `pip install -r requirements.txt`.
 
 
+## Resultados de los Modelos
+
+### Regresión Logística
+- **Accuracy**: 0.8079946103750281
+- **Confusion Matrix**:
+[[6758 177]
+[1533 438]]
+- **Classification Report**:
+          precision    recall  f1-score   support
+
+       0       0.82      0.97      0.89      6935
+       1       0.71      0.22      0.34      1971
+
+accuracy                           0.81      8906
+macro avg 0.76 0.60 0.61 8906
+weighted avg 0.79 0.81 0.77 8906
+
+### Random Forest
+- **Accuracy**: 0.8120368291039749
+- **Confusion Matrix**:
 
 
