@@ -24,27 +24,7 @@ En este proyecto, emplearemos las siguientes técnicas y modelos:
 
 El proyecto se organiza de la siguiente manera:
 
-- data
-    - raw_data
-    - processed_data
-- notebooks
-    - src
-        - data_preprocessing.py
-        - report2.py
-    - preprossesing_data.ipynb
-    - exploratory_analysis.ipynb
-    - modeling.ipynb
-- models
-    - trained_model_logistic_regresion.pkl
-    - trained_model_random_forest.pkl
-    - trained_model_XGB.pkl
-- reports
-    - Logistic Regrssion.ipynb
-    - Random_Forest_Classifier.ipynb
-    - XGB_Classifier.ipynb
-- README.md
-- requirements.txt
-
+![Estructura del proyecto](../data/img/Estructura.png)
 
 - **data**: Carpeta que contiene los datos utilizados en el proyecto, incluyendo el archivo CSV con los datos de los clientes y las transacciones de tarjetas de crédito.
 
